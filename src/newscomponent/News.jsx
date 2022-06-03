@@ -36,6 +36,7 @@ export const News = () => {
               </Card.Subtitle>
               {/* <Card.Text className="card-text">{news.content}</Card.Text> */}
             </Card.Body>
+            hello
           </Card>
         </React.Fragment>
       ))}
