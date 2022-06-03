@@ -26,16 +26,18 @@ export const News = () => {
       </div>
 
       {State.map((news) => (
-        <Card className="CradMain" style={{ width: "20rem" }}>
-          <Card.Img variant="top" className="imgsize" src={news.urlToImage} />
-          <Card.Body className="cardbody">
-            <Card.Title className="cardtitle">{news.title}</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted font-weight-bold">
-              {news.description}
-            </Card.Subtitle>
-            {/* <Card.Text className="card-text">{news.content}</Card.Text> */}
-          </Card.Body>
-        </Card>
+        <div key={news.id}>
+          <Card className="CradMain" style={{ width: "20rem" }}>
+            <Card.Img variant="top" className="imgsize" src={news.urlToImage} />
+            <Card.Body className="cardbody">
+              <Card.Title className="cardtitle">{news.title}</Card.Title>
+              <Card.Subtitle className="mb-2 text-muted font-weight-bold">
+                {news.description}
+              </Card.Subtitle>
+              {/* <Card.Text className="card-text">{news.content}</Card.Text> */}
+            </Card.Body>
+          </Card>
+        </div>
       ))}
     </div>
   );
