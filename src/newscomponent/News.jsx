@@ -24,7 +24,6 @@ export const News = () => {
       <div>
         <h1>Indian News App</h1>
       </div>
-
       {State.map((news) => (
         <React.Fragment key={news.publishedAt}>
           <Card className="CradMain" style={{ width: "20rem" }}>
@@ -36,10 +35,10 @@ export const News = () => {
               </Card.Subtitle>
               {/* <Card.Text className="card-text">{news.content}</Card.Text> */}
             </Card.Body>
-            hello
           </Card>
         </React.Fragment>
       ))}
+      hwllo
     </div>
   );
 };
