@@ -38,7 +38,6 @@ export const News = () => {
           </Card>
         </React.Fragment>
       ))}
-      hwllo
     </div>
   );
 };
