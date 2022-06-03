@@ -5,25 +5,23 @@ import { Card } from "react-bootstrap";
 export const News = () => {
   //   const newsData = [];
   const [State, Setstate] = useState([]);
+  const [loding, Setloding] = useState(true);
 
   useEffect(() => {
-    getdate();
-  }, []);
-
-  const getdate = () => {
     axios
       .get(
         "https://newsapi.org/v2/top-headlines?country=in&apiKey=0c83edc2d5414e10acea0a647f8f01de"
       )
       .then((response) => Setstate(response.data.articles))
       .catch((err) => console.log(err));
-  };
-
+  }, []);
+  console.log(State);
   return (
     <div>
       <div>
         <h1>Indian News App</h1>
       </div>
+      {!loding}
       {State.map((news) => (
         <React.Fragment key={news.publishedAt}>
           <Card className="CradMain" style={{ width: "20rem" }}>
@@ -38,6 +36,9 @@ export const News = () => {
           </Card>
         </React.Fragment>
       ))}
+      <div>
+        <h1>Loading...</h1>
+      </div>
     </div>
   );
 };
