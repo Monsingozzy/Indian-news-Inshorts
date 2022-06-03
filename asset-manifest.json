@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Indian-news-Inshorts/static/css/main.7582ef7d.css",
-    "main.js": "/Indian-news-Inshorts/static/js/main.36e65c87.js",
-    "static/js/787.413c8957.chunk.js": "/Indian-news-Inshorts/static/js/787.413c8957.chunk.js",
-    "index.html": "/Indian-news-Inshorts/index.html",
-    "main.7582ef7d.css.map": "/Indian-news-Inshorts/static/css/main.7582ef7d.css.map",
-    "main.36e65c87.js.map": "/Indian-news-Inshorts/static/js/main.36e65c87.js.map",
-    "787.413c8957.chunk.js.map": "/Indian-news-Inshorts/static/js/787.413c8957.chunk.js.map"
+    "main.css": "/static/css/main.7582ef7d.css",
+    "main.js": "/static/js/main.4ca07cea.js",
+    "static/js/787.413c8957.chunk.js": "/static/js/787.413c8957.chunk.js",
+    "index.html": "/index.html",
+    "main.7582ef7d.css.map": "/static/css/main.7582ef7d.css.map",
+    "main.4ca07cea.js.map": "/static/js/main.4ca07cea.js.map",
+    "787.413c8957.chunk.js.map": "/static/js/787.413c8957.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7582ef7d.css",
-    "static/js/main.36e65c87.js"
+    "static/js/main.4ca07cea.js"
   ]
 }
