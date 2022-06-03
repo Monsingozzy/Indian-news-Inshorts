@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import { Card, Button } from "react-bootstrap";
+import { Card } from "react-bootstrap";
 
 export const News = () => {
   //   const newsData = [];
