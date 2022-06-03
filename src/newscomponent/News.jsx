@@ -26,7 +26,7 @@ export const News = () => {
       </div>
 
       {State.map((news) => (
-        <div key={news.id}>
+        <React.Fragment key={news.publishedAt}>
           <Card className="CradMain" style={{ width: "20rem" }}>
             <Card.Img variant="top" className="imgsize" src={news.urlToImage} />
             <Card.Body className="cardbody">
@@ -37,7 +37,7 @@ export const News = () => {
               {/* <Card.Text className="card-text">{news.content}</Card.Text> */}
             </Card.Body>
           </Card>
-        </div>
+        </React.Fragment>
       ))}
     </div>
   );
